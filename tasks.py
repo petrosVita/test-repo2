@@ -89,8 +89,15 @@ def clear_tasks():
 
 def main():
     args = sys.argv[1:]
-    if not args:
+    if not args or "--help" in args or "-h" in args:
         print("Usage: tasks.py <add|list|done|remove|clear|search> [args]")
+        print("\nCommands:")
+        print("  add <title> [--priority <p>] [--due <d>] [--tag <t>] [--notes <n>]")
+        print("  list")
+        print("  done <id>")
+        print("  remove <id>")
+        print("  clear")
+        print("  search <keyword>")
         return
 
     cmd = args[0]
