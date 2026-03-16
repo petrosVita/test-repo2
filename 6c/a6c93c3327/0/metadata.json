@@ -1,0 +1,32 @@
+{
+  "checkpoint_id": "6ca6c93c3327",
+  "session_id": "7efffb51-2e1d-4c47-b7ed-5d5ceb1c2741",
+  "checkpoints_count": 1,
+  "strategy": "manual-commit",
+  "agent": "gemini-cli",
+  "created_at": "2026-03-16T19:20:55.501662774Z",
+  "cli_version": "0.0.9",
+  "turn_id": "556064f50d11",
+  "files_touched": [
+    "tasks.py"
+  ],
+  "transcript_identifier_at_start": "7efffb51-2e1d-4c47-b7ed-5d5ceb1c2741",
+  "branch": "main",
+  "token_usage": {
+    "input_tokens": 96671,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 65372,
+    "output_tokens": 1598,
+    "api_call_count": 12
+  },
+  "initial_attribution": {
+    "agent_lines": 8,
+    "agent_percentage": 100.0,
+    "calculated_at": "2026-03-16T19:20:55.098506639Z",
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 8
+  },
+  "transcript_path": "/home/petran/.gemini/tmp/test-repo2/chats/session-2026-03-16T19-14-7efffb51.json"
+}
